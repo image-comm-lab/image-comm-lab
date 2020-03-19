@@ -985,7 +985,7 @@ div .dropdown {
 	line-height: 35px;
 }
 #footer-header nav {
-	padding:0 20px 0;	
+	padding:2px 20px 0;	
 	width: 1250px;
 	text-align:left;
 	float:left;
@@ -993,13 +993,13 @@ div .dropdown {
 #footer-header nav a {
 	text-decoration:none;	
 	color:#333;
-	font-size:16px;
+	font-size:14px;
 	font-family:'Arial';
 }
 
 #footer-header nav a:hover {
 	font-family:"Arial Black", Gadget, sans-serif;
-	color:#777;
+	color:#444;
 }
 
 #footer {
