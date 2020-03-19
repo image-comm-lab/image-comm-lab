@@ -23,7 +23,7 @@ body {
 	padding:7px 70px 0;	
 	width:800px;
 	float:left;
-	text-align:center;
+	text-align:left;
 }
 #header-header nav a {
 	text-decoration:none;	
@@ -985,9 +985,9 @@ div .dropdown {
 	line-height: 35px;
 }
 #footer-header nav {
-	padding:0 330px 0;	
+	padding:0 20px 0;	
 	width: 1250px;
-	text-align:center;
+	text-align:left;
 	float:left;
 }
 #footer-header nav a {
