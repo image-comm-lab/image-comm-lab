@@ -994,6 +994,12 @@ div .dropdown {
 	text-decoration:none;	
 	color:#333;
 	font-size:16px;
+	font-family:'Arial';
+}
+
+#footer-header nav a:hover {
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#777;
 }
 
 #footer {
