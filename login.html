@@ -4,15 +4,39 @@
 	<meta charset="UTF-8">
 	<title>Login</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+    
+<script>
+function chkinput(form){
+	if(form.id.value=="") //通过if语句判断用户名是否为空
+	{
+		alert("Please input your ID!");//如果为空弹出提示消息
+		form.id.focus();
+		return false;
+	}
+	if(form.pwd.value=="") //通过if语句判断密码是否为空
+	{
+		alert("Please input your password！");//如果为空弹出提示消息
+		form.pwd.focus(); //返回指定位置
+		return false;
+	}
+	if (form.id.value!="201693257")
+	{
+		alert("Your ID is wrong!");//如果为空弹出提示消息
+		form.id.focus();
+		return false;		
+	}
+	return true;
+}
+</script>
 </head>
 
 <body>
 	<div id="login">
     	<h1> <a href="index.html" style="text-decoration:none; color:#000">Image and A.I. Lab</a></h1>
-    	<form>
+    	<form method="post" action="index.html" onsubmit="return chkinput(this)">
         Student ID <input type="text" name="id" align="right" width="70px" hspace="5px"><br>
         Password <input type="password" name="pwd" align="right" vspace="9px" hspace="14px"> <br>
-        <input type="submit" value="Login" align="left" >
+        <input type="submit" value="Login" align="left">
         </form>
     </div>
 </body>
