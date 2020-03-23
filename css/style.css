@@ -29,6 +29,10 @@ body {
 	text-decoration:none;	
 	color:#CCC;
 }
+#header-header nav a:hover {
+	text-decoration:none;	
+	color:#999;
+}
 
 #header {
 	/*background: url(../images/bg-header.jpg) repeat-x;*/
