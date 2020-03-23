@@ -451,7 +451,7 @@ div .dropdown {
 	box-shadow:#CCC 2px 2px 10px 2px;
 }
 #body ul li .article {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight:500;
 	float: left;
 	margin: 0;
@@ -580,6 +580,7 @@ div .dropdown {
 /*************************************************************************/
 #body #introduction {
 	margin:50px 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 #body #introduction table {
 	border: 0px;
@@ -587,7 +588,6 @@ div .dropdown {
 	text-align:center;
 	border-collapse:collapse;
 	width:800px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #body #introduction table td {
 	border-top: 1px solid #ddd;
@@ -599,7 +599,7 @@ div .dropdown {
 	line-height:1.3em;
 }
 #body #introduction ul{
-	font-size:18px;	
+	font-size:17px;	
 	color:#000;
 }
 #body #introduction ul li{
