@@ -991,14 +991,13 @@ div .dropdown {
 }
 #footer-header nav a {
 	text-decoration:none;	
-	color:#333;
+	color:#000;
 	font-size:14px;
 	font-family:'Arial';
 }
 
 #footer-header nav a:hover {
-	font-family:"Arial Black", Gadget, sans-serif;
-	color:#444;
+	color:#777;
 }
 
 #footer {
