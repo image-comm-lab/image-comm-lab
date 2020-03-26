@@ -136,10 +136,10 @@ div .dropdown {
 	height: 230px;
 	margin: 0;
 	padding: 0 0 10px 18px;
-	left: 30%;
+	left: 27%;
 	width: 300px;
 	float:left;
-	position:absolute;
+	position:relative;
 }
 #section div h1 {
 	color: #000;
