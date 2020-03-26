@@ -1121,3 +1121,28 @@ div .dropdown {
 	font-weight:500;
 	height:35px;
 }
+
+.label{
+     display:inline;
+     padding:.2em .6em .3em;
+     font-size:75%;
+     font-weight:700;
+     line-height:1;
+     color:#fff;
+     text-align:center;
+     white-space:nowrap;
+     vertical-align:baseline;
+     border-radius:.25em 
+}
+.label-detection{
+     background-color:#3300b7 
+}
+.label-animation{
+     background-color:#d95300 
+}
+.label-camera_motion{
+     background-color:#f0ad4e 
+}
+.label-CT{
+     background-color:#337ab7 
+}
