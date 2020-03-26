@@ -1090,7 +1090,7 @@ div .dropdown {
   line-height:26px;
 }
 #site_content ul li{
-  list-style-type: circle;
+  list-style-type: disc;
   margin: 0 0 6px 0; 
   padding: 0 0 4px 5px;
 }
@@ -1101,6 +1101,23 @@ div .dropdown {
 #site_content ul li a{
 	text-decoration:none;
 	color:#039;
+}
+#news{ 
+  width: 878px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 0 20px 20px 40px;
+  background: #FFF;
+  border-left: 1px solid #ECECE0;
+  border-right: 1px solid #ECECE0;
+  font-family:Arial, Helvetica, sans-serif;
+  font:16px arial;
+  line-height:26px;
+}
+#news ul li{
+  list-style-type: none;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 5px;
 }
 #login {
 	background: url(../images/login.jpg) no-repeat;
