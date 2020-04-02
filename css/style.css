@@ -310,7 +310,7 @@ div .dropdown {
 }
 #body {
 	background: url(../images/bg-body.jpg) repeat;
-	margin: 0 10px 0 460px;
+	margin: auto;
 	min-height: 1100px;
 	overflow: hidden;
 	padding: 0;
@@ -874,7 +874,7 @@ div .dropdown {
 }
 
 #body #lecture {
-	margin:0;
+	margin:auto;
 }
 #body #lecture table {
 	margin:30px 0 0 50px;
