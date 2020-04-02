@@ -310,7 +310,7 @@ div .dropdown {
 }
 #body {
 	background: url(../images/bg-body.jpg) repeat;
-	margin: 0 auto;
+	margin: 0 10px 0 460px;
 	min-height: 1100px;
 	overflow: hidden;
 	padding: 0;
@@ -1186,4 +1186,10 @@ div .dropdown {
 }
 .label-videocoding{
      background-color:#5cb85c 
+}
+.label-facialrecognition{
+     background-color:#337ab7 
+}
+.label-bis{
+     background-color:#5bc0de 
 }
