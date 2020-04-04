@@ -1123,8 +1123,11 @@ div .dropdown {
   padding: 0 0 4px 5px;
 }
 #news ul li a{
-	text-decoration:none;
-	color:#06F;
+	text-decoration:underline;
+	color:#000
+}
+#news ul li a:hover{
+	color:#337ab7;
 }
 #login {
 	background: url(../images/login.jpg) no-repeat;
