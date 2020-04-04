@@ -1123,11 +1123,12 @@ div .dropdown {
   padding: 0 0 4px 5px;
 }
 #news ul li a{
-	text-decoration:underline;
-	color:#000
+	text-decoration:none;
+	color:#337ab7;
 }
 #news ul li a:hover{
-	color:#337ab7;
+	text-decoration:underline;
+	color:#039;
 }
 #login {
 	background: url(../images/login.jpg) no-repeat;
