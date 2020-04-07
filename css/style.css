@@ -1130,6 +1130,15 @@ div .dropdown {
 	text-decoration:underline;
 	color:#039;
 }
+.newV {
+	background-color: rgba(255, 203, 1, 0.7);
+	border-radius: 4px;
+	color: #980000;
+	font-size: 14px;
+	line-height: normal;
+	padding: 1px 4px;
+	font-weight: 500;
+}
 #login {
 	background: url(../images/login.jpg) no-repeat;
 	opacity:0.9;
